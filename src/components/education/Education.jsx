@@ -28,7 +28,9 @@ const Education = () => {
                   <h4>
                     12<sup>th</sup>
                   </h4>
-                  <small className='text-light'>Amity University, Noida</small>
+                  <small className='text-light'>
+                    Devprayag School and <br /> College
+                  </small>
                 </div>
                 <h4>2018</h4>
                 <div className='education__score'>80%</div>
@@ -39,7 +41,9 @@ const Education = () => {
               <div className='education__columns'>
                 <div>
                   10<sup>th</sup> <br />
-                  <small className='text-light'>Amity University, Noida</small>
+                  <small className='text-light'>
+                    Devprayag School and <br /> College
+                  </small>
                 </div>
                 <h4>2016</h4>
                 <div className='education__score'>86.4%</div>
