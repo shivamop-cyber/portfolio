@@ -33,9 +33,9 @@ const Nav = () => {
         <BiBook />
       </a>
       <a
-        href='#portfolio'
-        onClick={() => setActiveNav('#portfolio')}
-        className={activeNav === '#portfolio' ? 'active' : ''}
+        href='#education'
+        onClick={() => setActiveNav('#education')}
+        className={activeNav === '#education' ? 'active' : ''}
       >
         <BsLaptop />
       </a>

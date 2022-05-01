@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import ME from '../../assets/me-about.jpg';
 import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
+import { AiOutlineLaptop } from 'react-icons/ai';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 const About = () => {
@@ -20,26 +20,25 @@ const About = () => {
           <div className='about__cards'>
             <div className='about__card'>
               <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>3+ Years of Working</small>
-            </div>
-            <div className='about__card'>
-              <FiUsers className='about__icon' />
-              <h5>Clienst</h5>
-              <small>300+ WorldWide</small>
+              <h5>Competitive Programmer</h5>
+              <small>4⭐ @codechef and Pupil @codeforces</small>
             </div>
             <div className='about__card'>
               <VscFolderLibrary className='about__icon' />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>Fullstack Developer</h5>
+              <small>Built multiple projects MERN stack</small>
+            </div>
+            <div className='about__card'>
+              <AiOutlineLaptop className='about__icon' />
+              <h5>Problem Solver</h5>
+              <small>Solved 700+ problems on coding platforms</small>
             </div>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
-            numquam illum obcaecati nihil commodi minima, vero quasi molestiae
-            labore non sit distinctio rem delectus, perspiciatis iste
-            dignissimos exercitationem, quidem deleniti.
+            I'm a highly motivated and enthusiastic person who loves learning
+            new technologies and working on them. I'm keen on joining the
+            industry and building the technologies that impact the masses.
           </p>
           <div className='btn-center'>
             <a href='#contact' className='btn btn-primary'>
